@@ -1,0 +1,156 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #0000;
+}
+
+.bobaheader{
+  background-color:#B8C9F4;
+  font-family:Squada One; 
+  overflow:hidden;
+}
+
+body {
+	margin: 0;
+	background: #FFEDED;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background-color: white;
+  overflow-x: hidden;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 150px;
+  padding-top: 23px;
+  position: relative;
+  top:-12px;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+h1{
+  color:black;
+  position:relative;
+  right:-600px;
+}
+
+.boba{
+  top:100px;
+  display:block;
+  color:white;
+  overflow:hidden;
+}
+
+.background-tea-image{
+  width:100%
+}
+
+img {
+  height:auto;
+  width:20%;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+html{
+  background-color:#eee;
+}
+.teas{
+  margin: 20px auto;
+  width:500px;
+  height:700px;
+  background-color:#fff;
+  display:grid;
+  grid-template-columns: 200px 200px;
+  grid-row: auto auto;
+  grid-column-gap: 150px;
+  grid-row-gap: 20px;
+  .box{
+    background-color:#333;
+    padding:20px;
+    border-radius:10px;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:40px;
+    font-family:sans-serif;
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #FFEDED;
+  padding: 10px;
+}
+.grid-tea {
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(255, 255, 255, 1);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
