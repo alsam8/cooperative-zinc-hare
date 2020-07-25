@@ -3,4 +3,5 @@
 
 // prints "hi" in the browser's dev tools console
 console.log("hi");
+<script src="/script.js" defer></script>
 <script src="https://alsam8.github.io/cooperative-zinc-hare/script.js defer />
